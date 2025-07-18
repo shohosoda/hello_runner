@@ -17,6 +17,6 @@ jobs:
     steps:
     - uses: actions/checkout@v4
     - name: Build
-      run: uname -m
+      run: brew --cache
     - name: Run tests
       run: ls /opt/homebrew/
