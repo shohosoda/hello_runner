@@ -19,4 +19,4 @@ jobs:
     - name: Build
       run: brew --cache
     - name: Run tests
-      run: ls /opt/homebrew/
+      run: ls /Users/runner/Library/Caches/Homebrew
